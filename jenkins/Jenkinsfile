@@ -20,6 +20,10 @@ pipeline {
             steps {
                 echo 'The job is Complete'
             }
+        stage('Complete Again') {
+            steps {
+                echo 'The job is Complete'
+            }
         }
     }
 }
